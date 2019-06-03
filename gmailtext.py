@@ -17,7 +17,7 @@ class Gmailtext():
         mail = smtplib.SMTP('smtp.gmail.com', 587)
         mail.ehlo()
         mail.starttls()
-        mail.login('gutierrez014642@gmail.com', 'juan40685194')
+        mail.login('xxxxxx', 'xxxxxx')
         mail.sendmail('gutierrez014642@gmail.com', self.number0, self.content)
         mail.sendmail('gutierrez014642@gmail.com', self.number1, self.content)
         mail.sendmail('gutierrez014642@gmail.com', self.number2, self.content)
